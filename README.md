@@ -47,7 +47,7 @@ yh-gao18@mails.tsinghua.edu.cn
 
 
 ## Acknowledgement
-Our implementation are based on the following projects. We thank the authors for releasing the code.
+Our implementation is based on the following projects. We thank the authors for releasing the code.
 
 * [An Empirical Study of Example Forgetting during Deep Neural Network Learning](https://github.com/mtoneva/example_forgetting)
 * [Adversarial Neuron Pruning Purifies Backdoored Deep Models](https://github.com/csdongxian/ANP_backdoor)
