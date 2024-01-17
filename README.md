@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=0 python cal_metric.py --output_dir save_metric
 **Step 2: Train backdoored model with different sample selection methods**
 
 ```
-CUDA_VISIBLE_DEVICES=0 python train_backdoor.py --output_dir save_metric --result_dir save_res --backdoor_type badnets --y_target 0 --select_epoch 10
+CUDA_VISIBLE_DEVICES=0 python train_backdoor.py --output_dir save_metric --result_dir save_res --selection forget --backdoor_type badnets --y_target 0 --select_epoch 10
 ```
 
 `--select epoch` specifies the epoch which to calculate the statistics. `--output_dir` must be the same with the one used in cal_metric.py
