@@ -1,4 +1,4 @@
-# Effective_CLB
+
 This is the official implementation of our paper [Not All Samples Are Born Equal: Towards Effective Clean-Label Backdoor Attacks](https://www.sciencedirect.com/science/article/abs/pii/S0031320323002121), accepted by Pattern Recognition (2023). This research project is developed based on Python 3 and Pytorch, created by [Yinghua Gao]() and [Yiming Li](http://liyiming.tech/).
 
 
