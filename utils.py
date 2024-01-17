@@ -17,7 +17,6 @@ def set_random_seed(seed = 10):
 class MyDataset(torch.utils.data.Dataset):
    
     def __init__(self, data, transform=None):
-
         self.data = data
         self.transform = transform
 
@@ -25,12 +24,9 @@ class MyDataset(torch.utils.data.Dataset):
         return len(self.data)
 
     def __getitem__(self, idx):
-
         sample, label, is_poison = self.data[idx][0], self.data[idx][1], self.data[idx][2]
-
         if self.transform:
             sample = self.transform(sample)
-
         return (sample, label, is_poison)
 
 def Add_Test_Trigger(dataset, trigger, target, alpha):
