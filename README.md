@@ -11,7 +11,7 @@ Recent studies demonstrated that deep neural networks (DNNs) are vulnerable to b
 * torchvision = 0.2.1
 
 ## A Quick Start
-**Step 1: Calculate three metrics (loss value, gradient norm and forggeting events)**
+**Step 1: Calculate three metrics (loss value, gradient norm and forgetting events)**
 
 ```
 CUDA_VISIBLE_DEVICES=0 python cal_metric.py --output_dir save_metric
